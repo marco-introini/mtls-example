@@ -1,6 +1,6 @@
 # mTLS Example
 
-Complete article:
+Complete article: https://dev.to/marcointroini/debug-mtls-using-wireshark-7ll
 
 ## Prerequisites
 
