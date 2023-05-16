@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: 'laragateway'
+    ports:
+      - "443:443"
+    volumes:
+      - ./:/var/www/html
