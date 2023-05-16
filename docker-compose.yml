@@ -4,9 +4,9 @@ services:
   app:
     build:
       context: .
-      dockerfile: docker/Dockerfile
-    image: 'laragateway'
+      dockerfile: Dockerfile
+    image: 'mtlsserver'
     ports:
       - "443:443"
     volumes:
-      - ./:/var/www/html
+      - ./src:/var/www/html
